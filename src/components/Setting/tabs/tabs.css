@@ -1,0 +1,28 @@
+.tabs ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabs .tab {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.tabs .tab.active {
+  background-color: var(--back-ground);
+  border-bottom: 1px solid;
+  color: white;
+}
+
+.tabs .tab:hover {
+  background-color: var(--back-ground);
+  color: white;
+}

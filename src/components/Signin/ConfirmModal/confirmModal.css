@@ -1,0 +1,9 @@
+.confirm-form span {
+  display: block;
+  padding: 10px 0;
+}
+
+.confirm-form .input-form input {
+  padding: 8px 5px;
+  margin: 20px 0;
+}

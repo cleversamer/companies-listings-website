@@ -1,0 +1,76 @@
+.admin-sign .sign-row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-sign .sign-row .left-side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.admin-sign .sign-row .left-side img {
+  max-width: 100%;
+}
+
+.admin-sign .sign-row .right-side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f6ff;
+}
+
+.admin-sign .sign-in {
+  width: 400px;
+  padding: 20px 10px;
+  margin: auto;
+  background: white;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 8px;
+}
+
+.admin-sign .sign-in h2 {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: normal;
+}
+
+.admin-sign .sign-in .form {
+  padding: 20px;
+}
+.admin-sign .sign-in .input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.admin-sign .sign-in .input-form input {
+  padding: 10px 8px;
+  margin: 10px 0;
+}
+
+.admin-sign .sign-in button {
+  width: 100%;
+  padding: 8px 0;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .admin-sign .sign-row .left-side {
+    display: none;
+  }
+  .admin-sign .sign-row .right-side {
+    width: 100%;
+  }
+  .admin-sign .sign-in {
+    width: 95%;
+  }
+}

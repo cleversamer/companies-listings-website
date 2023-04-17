@@ -1,0 +1,63 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social .social-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+  margin: 10px 10px;
+  border-radius: 50%;
+  background-color: var(--back-ground);
+  color: white;
+  cursor: pointer;
+}
+
+.social .social-info svg {
+  font-size: 25px;
+}
+
+.share-link {
+  padding: 10px 0;
+}
+
+.share-link .link {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.share-link .link .copy {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.share-link .link .link-example {
+  display: block;
+  font-size: 13px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.share-link .link .copied {
+  position: absolute;
+  top: -35px;
+  right: 1px;
+  font-size: 13px;
+  background-color: #726868;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+}

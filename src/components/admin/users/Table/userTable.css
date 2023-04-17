@@ -1,0 +1,32 @@
+.user-page tbody tr td.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-page tbody tr td.actions img {
+  width: 20px;
+  margin: 0 5px;
+}
+
+.user-page tbody tr td.active span {
+  color: white;
+  background-color: #41bb46;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+tbody tr td.actions svg {
+  font-size: 26px;
+  cursor: pointer;
+  color: #003653;
+}
+
+tbody tr td.actions .edit svg:hover {
+  color: green;
+}
+
+tbody tr td.actions .delete svg:hover {
+  color: red;
+}

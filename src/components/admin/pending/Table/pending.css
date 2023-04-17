@@ -1,0 +1,15 @@
+.pending-page tbody tr td.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pending-page tbody tr td.actions img {
+  width: 25px;
+  margin: 0 5px;
+}
+
+.pending-page tbody tr td.actions span {
+  cursor: pointer;
+}

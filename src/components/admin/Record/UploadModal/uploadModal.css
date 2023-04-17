@@ -1,0 +1,50 @@
+.file-choose {
+  cursor: pointer;
+  border: 1px dashed rgba(0, 0, 0, 0.486);
+  padding: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  transition: 0.4s;
+}
+
+.file-choose.dragging {
+  opacity: 0.5;
+  border: 1px dashed var(--back-ground);
+}
+
+.file-choose img {
+  width: 70px;
+}
+
+.files {
+  max-height: 350px;
+  padding: 10px 0;
+  overflow: auto;
+}
+
+.files ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid #0000001a;
+  padding: 10px 5px;
+  border-radius: 7px;
+}
+
+.files ul li img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.files ul li div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}

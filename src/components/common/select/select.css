@@ -1,0 +1,22 @@
+.select-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.select-form label {
+  font-size: 16px;
+}
+
+.select-form select {
+  padding: 10px 5px;
+  border-radius: 7px;
+  border-color: #f37e7e4f;
+  outline: none;
+  transition: 0.3s;
+}
+
+.select-form select:focus {
+  box-shadow: 0 0 2px 2px #6bcbf6;
+}

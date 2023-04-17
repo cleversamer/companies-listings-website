@@ -1,0 +1,31 @@
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+
+.search-form .select-form,
+.search-form .input-form {
+  width: calc((100% - 30px) / 4);
+  margin: 12px 0 !important;
+}
+
+@media (max-width: 767px) {
+  .search-form .select-form,
+  .search-form .input-form {
+    width: calc((100% - 30px) / 2);
+  }
+}
+
+.search-form .input-form input {
+  border-color: #f37e7e7a;
+  padding: 10px 5px;
+}
+
+.search-form label {
+  font-weight: bold;
+}
+
+.search-form .input-form label {
+  font-size: 16px;
+}

@@ -1,0 +1,19 @@
+.admin-setting-form {
+  width: 400px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.admin-setting-form .input-form input {
+  width: 100%;
+  padding: 8px !important;
+}
+
+.admin-setting-form input,
+.admin-setting-form .phone-info {
+  margin-top: 13px !important;
+}
+
+.admin-setting-form button {
+  width: 100%;
+}

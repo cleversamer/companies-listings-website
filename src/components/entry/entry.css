@@ -1,0 +1,10 @@
+.entry {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.entry .select-form {
+  margin: 0 !important;
+  gap: 0 !important;
+}

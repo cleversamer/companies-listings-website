@@ -1,0 +1,33 @@
+.colors {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.colors span {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+}
+
+.colors span.one {
+  background-color: #3694bf;
+}
+
+.colors span.two {
+  background-color: #606585;
+}
+
+.colors span.three {
+  background-color: #c56c86;
+}
+
+.colors span.four {
+  background-color: #0db3a3;
+}

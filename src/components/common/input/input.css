@@ -1,0 +1,38 @@
+.input-form label {
+  font-size: 17px;
+}
+
+.input-form input:not([type="file"]) {
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.input-form input:focus {
+  border-color: #6bcbf6;
+}
+
+.input-form {
+  position: relative;
+}
+
+.input-form .close-icon {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  animation: opa 0.5s linear forwards;
+}
+
+@keyframes opa {
+  100% {
+    opacity: 1;
+    pointer-events: all;
+  }
+}

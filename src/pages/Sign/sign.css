@@ -1,0 +1,66 @@
+.sign-page .sign-info {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sign-page .sign-info .left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.sign-page .sign-info .left-side img {
+  max-width: 100%;
+}
+
+.sign-page .sign-info .right-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f6ff;
+}
+
+.sign-page .sign-info .right-side .right-side-info {
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sign-page .sign-info .right-side .right-side-info .sign-btns button {
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.sign-page .sign-info .right-side .right-side-info .sign-btns {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.sign-page .sign-info .right-side .right-side-info .sign-btns button.active {
+  background-color: var(--green-color);
+  border-top-left-radius: 5px;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .sign-page .sign-info .left-side {
+    display: none;
+  }
+
+  .sign-page .sign-info .right-side {
+    width: 100%;
+  }
+
+  .sign-page .sign-info .right-side .right-side-info {
+    width: 80%;
+  }
+}

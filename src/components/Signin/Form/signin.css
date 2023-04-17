@@ -1,0 +1,63 @@
+.Sign-in {
+  padding: 20px 10px;
+}
+
+.Sign-in h2 {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: normal;
+}
+
+.Sign-in .form {
+  padding: 20px;
+}
+
+.Sign-in .form .input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.Sign-in .form .input-form input {
+  padding: 10px 8px;
+  margin: 10px 0;
+}
+
+.Sign-in .form button {
+  width: 100%;
+  padding: 8px 0;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.sign-now {
+  margin-top: 20px;
+}
+
+.sign-now span {
+  font-size: 15px;
+}
+
+.sign-now span :last-child {
+  margin: 0 5px;
+  cursor: pointer;
+  color: var(--green-color);
+}
+
+.sign-now span :last-child:hover {
+  text-decoration: underline;
+}
+
+.forget-now {
+  padding: 5px 0;
+}
+
+.forget-now span {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.forget-now span:hover {
+  text-decoration: underline;
+  color: var(--green-color);
+}

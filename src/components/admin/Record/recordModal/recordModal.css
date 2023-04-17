@@ -1,0 +1,38 @@
+.edit-record .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  height: auto;
+}
+
+.edit-record .row .input-form {
+  width: 48%;
+}
+
+.edit-record .row .input-form:first-child {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .edit-record .input-form {
+    width: 48%;
+  }
+}
+
+.edit-record .input-form input {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.edit-record .row .select-form {
+  width: 100%;
+}
+
+.edit-record .row .select-form label {
+  font-size: 16px;
+}
+
+.edit-record .row .select-form select {
+  border-color: rgba(0, 0, 0, 0.24);
+}

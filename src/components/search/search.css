@@ -1,0 +1,42 @@
+.record-filter {
+  display: flex;
+  align-items: center;
+}
+
+.record-filter input {
+  padding: 10px !important;
+}
+
+.record-filter .select-form {
+  margin: 0 !important;
+  gap: 0 !important;
+}
+
+.record-filter .select-form select {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.record-filter .search-info {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .record-filter .search-info {
+    flex-direction: column;
+  }
+
+  .record-filter {
+    display: flex;
+    align-items: initial;
+  }
+
+  .record-filter .select-form {
+    margin-top: 4px !important;
+  }
+
+  .record-filter .btn {
+    width: 100%;
+  }
+}

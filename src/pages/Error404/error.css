@@ -1,0 +1,18 @@
+.row {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+}
+
+.row .right-side div span {
+  display: block;
+  font-size: 40px;
+}
+
+.row .right-side div a {
+  display: block;
+  margin: 20px 0;
+  text-decoration: underline;
+  font-size: 20px;
+}

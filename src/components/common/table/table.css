@@ -1,0 +1,144 @@
+table {
+  border-collapse: collapse;
+}
+
+/* start Table  */
+.table {
+  overflow: auto;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table table thead tr {
+  background: var(--back-ground);
+  color: white;
+}
+
+.table table thead th {
+  color: var(--white-color);
+  position: relative;
+}
+
+.table table thead th.sort {
+  cursor: pointer;
+  padding-right: 30px !important;
+}
+
+.table table thead th.sort::before,
+.table table thead th.sort::after {
+  position: absolute;
+  bottom: 6px;
+  display: block;
+}
+
+.table table thead th.sort::before {
+  content: "↑";
+  right: 1em;
+}
+
+.table table thead th.sort::after {
+  right: 0.5em;
+  content: "↓";
+}
+
+.table table thead th,
+.table table tbody tr:not(.child) td {
+  padding: 5px 10px;
+}
+
+.table table tbody tr.selected {
+  background: linear-gradient(180deg, #00365321 0, #b9e6ff94 53%, #00365321);
+}
+
+.table table tbody td.actions-icons {
+  width: 120px;
+}
+
+.table table tbody td .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.table table tbody td .actions i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.table table tbody td .actions span.whats img {
+  width: 20px;
+  height: 20px;
+  font-size: 22px;
+  max-width: initial;
+}
+
+.table table tbody td .actions span.whats i:hover {
+  color: #1dbd1d;
+}
+
+.table table tbody td .actions span.edit i {
+  color: var(--primary-color);
+}
+
+.table table tbody td .actions span.edit i:hover {
+  color: rgb(19, 104, 68);
+}
+
+.table table tbody td .actions span.delete i {
+  color: rgb(155, 22, 22);
+}
+
+.table table tbody td .actions span.delete i:hover {
+  color: red;
+}
+
+.table table tbody td .actions span.view i {
+  color: var(--blue-color);
+}
+
+.table table tbody .child {
+  display: none;
+}
+
+.table table tbody .child.show {
+  display: revert;
+}
+
+.table table tbody .child ul {
+  padding: 10px 0;
+}
+
+.table table tbody .child ul li {
+  display: flex;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+table tr .ask-dat {
+  max-width: 400px;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.table table tbody .child ul li span:first-child {
+  display: inline-block;
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  table .sm {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  table .lg {
+    display: none;
+  }
+}
+
+/* End Table  */

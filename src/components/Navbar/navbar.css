@@ -1,0 +1,35 @@
+/* Start Navbar  */
+nav {
+  padding: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+nav .navbar .nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  nav .navbar .country-list {
+    order: 1;
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+nav .navbar .nav-list li.nav-icon {
+  display: none;
+}
+
+nav .setting svg {
+  font-size: 25px;
+  cursor: pointer;
+  color: #207aa3;
+}
+
+/* End Navbar  */

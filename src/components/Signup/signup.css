@@ -1,0 +1,31 @@
+.Sign-up {
+  padding: 20px 10px;
+}
+
+.Sign-up h2 {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: normal;
+}
+
+.Sign-up .form {
+  padding: 15px;
+}
+
+.Sign-up .form .input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.Sign-up .form .input-form input {
+  padding: 10px 8px;
+  margin: 10px 0;
+}
+
+.Sign-up .form button {
+  width: 100%;
+  padding: 8px 0;
+  margin: 10px 0;
+  font-size: 16px;
+}

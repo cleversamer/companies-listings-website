@@ -1,0 +1,40 @@
+.record-choose h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.boxes {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
+.box .box-info {
+  border: 1px solid #00000024;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.box .box-info.active {
+  color: white;
+  background-color: var(--back-ground);
+}
+
+.box .box-info:hover {
+  color: white;
+  background-color: var(--back-ground);
+}
+
+.box .box-info h3 {
+  font-size: 15px;
+  font-weight: normal;
+}

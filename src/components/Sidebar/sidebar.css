@@ -1,0 +1,104 @@
+/* Start Sidebar  */
+aside {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: #006391;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s;
+  z-index: 99;
+}
+
+aside .image {
+  text-align: center;
+  margin-top: 10px;
+}
+
+aside .close {
+  display: none;
+}
+
+aside .close svg {
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+
+aside img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+aside ul {
+  margin-top: 50px;
+}
+
+aside ul li {
+  padding-left: 10px;
+}
+
+aside ul li a,
+aside button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  border: none;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+
+aside ul li a.active {
+  background-color: white;
+  color: black;
+}
+
+aside ul li a:hover,
+aside button:hover {
+  color: black;
+  background-color: white;
+}
+
+aside ul li a img,
+aside button img {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 992px) {
+  aside {
+    transform: translate(-100%);
+  }
+
+  aside.show {
+    transform: translate(0);
+  }
+
+  nav .navbar .nav-list li.nav-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  aside .close {
+    display: block;
+    text-align: right;
+    margin: 10px 20px 0;
+  }
+
+  aside .close i {
+    cursor: pointer;
+    font-size: 25px;
+  }
+}
+
+/* End Sidebar  */

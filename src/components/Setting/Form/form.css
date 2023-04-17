@@ -1,0 +1,16 @@
+.setting-page .form {
+  width: 350px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.setting-page .input-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.setting-page .input-form input {
+  padding: 8px;
+  margin: 10px 0;
+}

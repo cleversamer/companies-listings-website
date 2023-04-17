@@ -1,0 +1,35 @@
+.user-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .user-search {
+    flex-direction: column;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .user-search .record-filter {
+    order: -1;
+  }
+
+  .user-search .record-filter button {
+    margin-top: 7px !important;
+  }
+
+  .user-search button {
+    align-self: flex-end;
+  }
+
+  .user-search .entry {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+}

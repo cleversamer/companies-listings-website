@@ -1,0 +1,12 @@
+.delete-modal span {
+  display: block;
+  padding: 10px 0;
+}
+
+.delete-modal .btns {
+  padding: 20px 0 0;
+}
+
+.delete-modal .btns button {
+  margin: 0 5px;
+}

@@ -1,0 +1,22 @@
+.add-new {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.add-new span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 26px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 50%;
+}
+
+.add-new span:hover {
+  background-color: var(--back-ground);
+  color: white;
+}

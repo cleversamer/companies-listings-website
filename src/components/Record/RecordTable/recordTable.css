@@ -1,0 +1,32 @@
+.record-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.record-actions .download,
+.record-actions .share {
+  cursor: pointer;
+}
+
+.record-actions .share,
+.record-actions .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: var(--back-ground);
+  border-radius: 50%;
+}
+
+.record-actions svg {
+  font-size: 18px;
+  color: white;
+}
+
+.record-actions .share:hover,
+.record-actions .download:hover {
+  background-color: #166083;
+}
