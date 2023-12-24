@@ -1,0 +1,289 @@
+repo_name: cleversamerr/companies-listings-website
+report_id: 7971f5f565433029f8887ebd6b05df4a
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-24T12:40:03+00:00'
+requested_by: cleversamerr
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 4.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/cleversamerr/companies-listings-website/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-04-17 17:35:12.000000000 Z
+  vulnerabilities:
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.2.3
